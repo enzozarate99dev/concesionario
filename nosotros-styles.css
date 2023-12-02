@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    overflow: hidden; /* Evita el desbordamiento horizontal */
+    background-color: black;
+}
+.nav-link {
+    color: aliceblue;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.nosotros-container{
+    width:100vw;
+    height:100vh;
+    padding: 5rem;
+    background-image:url("imagenes/portada-nos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nosotros-container::before {
+    content: "";
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, black, rgba(255, 255, 255, 0.1));
+}
+#section3{
+    margin-inline: 10vw;
+    padding: 0;
+    height: 50vh;
+    overflow: hidden; /* Evita el desbordamiento horizontal */
+    background: linear-gradient(to right, black, #4040FB);
+}
+
+.icon-card{
+    font-size: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    color:#FF9800;
+}
+
+footer{
+    height: 25vh;
+    background-color: black;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    gap: 7rem;
+}
+.icon-footer{
+    font-size: 2em;
+    color:aliceblue;
+}
