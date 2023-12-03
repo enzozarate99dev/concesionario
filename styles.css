@@ -68,3 +68,10 @@ footer{
     font-size: 2em;
     color:aliceblue;
 }
+
+/* @media (max-width: 576px) {
+ .card {
+      min-width: 100vw !important;
+    }
+  } */
+
